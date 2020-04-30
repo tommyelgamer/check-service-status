@@ -11,5 +11,5 @@ def status():
         else:
             return True
 
-if platform == 'linux2':
+if platform == 'linux2' or platform == 'linux':
     status()
